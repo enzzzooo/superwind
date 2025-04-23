@@ -1,0 +1,36 @@
+{
+  "name": "superwind",
+  "version": "1.0.0",
+  "description": "tailwind ui package for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib --copy-files"
+}
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzzzooo/superwind.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/enzzzooo/superwind/issues"
+  },
+  "homepage": "https://github.com/enzzzooo/superwind#readme",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4"
+  }
+}
